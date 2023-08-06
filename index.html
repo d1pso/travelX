@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title></title>
+    <link rel="stylesheet" href="./css/main.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <!-- <div class="wrapper"> -->
+      <header class="header">
+
+        <div class="header__content">
+          <nav class="header__nav">
+            <a href="#!" class="header__logo"><img src="./img/Logo.png" alt="logo"></a>
+            <ul class="header__list">
+              <li class="header__item"><a href="#!" class="header__link">Destinations</a></li>
+              <li class="header__item"><a href="#!" class="header__link">Activities</a></li>
+              <li class="header__item"><a href="#!" class="header__link">About Us</a></li>
+              <li class="header__item"><a href="#!" class="header__link">Contact</a></li>
+            </ul>
+            <div class="header__burger">
+              <button data-burger-btn-open type="button"><img src="./img/Nav btn.svg" alt=""></button>
+            </div>
+          </nav>
+          <div class="header__socials">
+            <ul class="header__socials-list">
+              <li class="header__socials-item"><a href="#!"><img src="./img/facebook.svg" alt="" class="header__socials-img"></a></li>
+              <li class="header__socials-item"><a href="#!"><img src="./img/twitter.svg" alt="" class="header__socials-img"></a></li>
+              <li class="header__socials-item"><a href="#!"><img src="./img/instagram.svg" alt="" class="header__socials-img"></a></li>
+            </ul>
+          </div>
+          <div class="header__see-more">
+            <a href="#!" class="header__see-more-text">see more</a>
+          </div>
+          <div class="header__slider-controls">
+            <div class="header__slider-controls-arrows">
+              <button type="button" id="arrowPrev"><img src="./img/chevron-left.svg" alt=""></button>
+              <button type="button" id="arrowNext"><img src="./img/chevron-right.svg" alt=""></button>
+            </div>
+            <div class="header__slider-controls-count">
+              <!-- <span class="header__slider-controls-count-current">01</span>
+              /
+              <span>05</span> -->
+            </div>
+          </div>
+          <div class="header__scrollbar">
+            <div class="swiper-scrollbar"></div>
+          </div>
+        </div>
+
+        <div class="header__mobile-nav-overlay"></div>
+        <div data-burger-menu class="header__mobile-nav">
+          <button data-burger-btn-close class="header__mobile-nav-btn">
+            <img src="./img/Close Btn.svg" alt="">
+          </button>
+          <ul class="header__mobile-nav-list">
+            <li class="header__mobile-nav-item"><a href="#!" class="header__mobile-nav-link">Destinations</a></li>
+            <li class="header__mobile-nav-item"><a href="#!" class="header__mobile-nav-link">Activities</a></li>
+            <li class="header__mobile-nav-item"><a href="#!" class="header__mobile-nav-link">About Us</a></li>
+            <li class="header__mobile-nav-item"><a href="#!" class="header__mobile-nav-link">Contact</a></li>
+          </ul>
+        </div>
+        <!-- Slider main container -->
+        <div class="swiper">
+          <!-- Additional required wrapper -->
+          <div class="swiper-wrapper">
+            <!-- Slides -->
+            <div class="swiper-slide">
+              <div class="slide slide--norway">
+                <div class="slide__header">
+                  <div class="slide__tagline" data-swiper-parallax="500%" data-swiper-parallax-opacity="0">
+                    EXPLORE
+                  </div>
+                  <h1 class="slide__title" data-swiper-parallax="-100%">
+                    <span>Norway</span>
+                  </h1>
+                </div>
+                <div class="header__locations">
+                  <div class="header__locations-cards" data-swiper-parallax="-60%">
+                    <a href="#!" class="header__locations-card">
+                      <div class="header__locations-card-img">
+                        <img src="./img/map.svg" alt="">
+                      </div>
+                      <div class="header__locations-card-content">
+                        <h3 class="header__locations-card-title">
+                          Trondheim
+                        </h3>
+                        <div class="header__locations-card-text">
+                          Plan a trip
+                        </div>
+                      </div>
+                    </a>
+                    <a href="#!" class="header__locations-card">
+                      <div class="header__locations-card-img">
+                        <img src="./img/map.svg" alt="">
+                      </div>
+                      <div class="header__locations-card-content">
+                        <h3 class="header__locations-card-title">
+                          Geirangerfjord
+                        </h3>
+                        <div class="header__locations-card-text">
+                          Plan a trip
+                        </div>
+                      </div>
+                    </a>
+                    <a href="#!" class="header__locations-card">
+                      <div class="header__locations-card-img">
+                        <img src="./img/map.svg" alt="">
+                      </div>
+                      <div class="header__locations-card-content">
+                        <h3 class="header__locations-card-title">
+                          Lofoten
+                        </h3>
+                        <div class="header__locations-card-text">
+                          Plan a trip
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide slide--austria">
+                <div class="slide__header">
+                  <div class="slide__tagline" data-swiper-parallax="150%" data-swiper-parallax-opacity="0">
+                    EXPLORE
+                  </div>
+                  <h1 class="slide__title"  data-swiper-parallax="-100%">
+                    <span>Austria</span>
+                  </h1>
+                </div>
+                <div class="header__locations" >
+                  <div class="header__locations-cards" data-swiper-parallax="-100%">
+                    <a href="#!" class="header__locations-card">
+                      <div class="header__locations-card-img">
+                        <img src="./img/map.svg" alt="">
+                      </div>
+                      <div class="header__locations-card-content">
+                        <h3 class="header__locations-card-title">
+                          Location
+                        </h3>
+                        <div class="header__locations-card-text">
+                          Plan a trip
+                        </div>
+                      </div>
+                    </a>
+                    <a href="#!" class="header__locations-card">
+                      <div class="header__locations-card-img">
+                        <img src="./img/map.svg" alt="">
+                      </div>
+                      <div class="header__locations-card-content">
+                        <h3 class="header__locations-card-title">
+                          Location
+                        </h3>
+                        <div class="header__locations-card-text">
+                          Plan a trip
+                        </div>
+                      </div>
+                    </a>
+                    <a href="#!" class="header__locations-card">
+                      <div class="header__locations-card-img">
+                        <img src="./img/map.svg" alt="">
+                      </div>
+                      <div class="header__locations-card-content">
+                        <h3 class="header__locations-card-title">
+                          Location
+                        </h3>
+                        <div class="header__locations-card-text">
+                          Plan a trip
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide slide--uae">
+                <div class="slide__header">
+                  <div class="slide__tagline" data-swiper-parallax="150%" data-swiper-parallax-opacity="0">
+                    EXPLORE
+                  </div>
+                  <h1 class="slide__title"  data-swiper-parallax="-100%">
+                    <span>UAE</span>
+                  </h1>
+                </div>
+                <div class="header__locations" >
+                  <div class="header__locations-cards" data-swiper-parallax="-100%">
+                    <a href="#!" class="header__locations-card">
+                      <div class="header__locations-card-img">
+                        <img src="./img/map.svg" alt="">
+                      </div>
+                      <div class="header__locations-card-content">
+                        <h3 class="header__locations-card-title">
+                          Location
+                        </h3>
+                        <div class="header__locations-card-text">
+                          Plan a trip
+                        </div>
+                      </div>
+                    </a>
+                    <a href="#!" class="header__locations-card">
+                      <div class="header__locations-card-img">
+                        <img src="./img/map.svg" alt="">
+                      </div>
+                      <div class="header__locations-card-content">
+                        <h3 class="header__locations-card-title">
+                          Location
+                        </h3>
+                        <div class="header__locations-card-text">
+                          Plan a trip
+                        </div>
+                      </div>
+                    </a>
+                    <a href="#!" class="header__locations-card">
+                      <div class="header__locations-card-img">
+                        <img src="./img/map.svg" alt="">
+                      </div>
+                      <div class="header__locations-card-content">
+                        <h3 class="header__locations-card-title">
+                          Location
+                        </h3>
+                        <div class="header__locations-card-text">
+                          Plan a trip
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide slide--thailand">
+                <div class="slide__header">
+                  <div class="slide__tagline" data-swiper-parallax="150%" data-swiper-parallax-opacity="0">
+                    EXPLORE
+                  </div>
+                  <h1 class="slide__title"  data-swiper-parallax="-100%">
+                    <span>Thailand</span>
+                  </h1>
+                </div>
+                <div class="header__locations" >
+                  <div class="header__locations-cards" data-swiper-parallax="-100%">
+                    <a href="#!" class="header__locations-card">
+                      <div class="header__locations-card-img">
+                        <img src="./img/map.svg" alt="">
+                      </div>
+                      <div class="header__locations-card-content">
+                        <h3 class="header__locations-card-title">
+                          Location
+                        </h3>
+                        <div class="header__locations-card-text">
+                          Plan a trip
+                        </div>
+                      </div>
+                    </a>
+                    <a href="#!" class="header__locations-card">
+                      <div class="header__locations-card-img">
+                        <img src="./img/map.svg" alt="">
+                      </div>
+                      <div class="header__locations-card-content">
+                        <h3 class="header__locations-card-title">
+                          Location
+                        </h3>
+                        <div class="header__locations-card-text">
+                          Plan a trip
+                        </div>
+                      </div>
+                    </a>
+                    <a href="#!" class="header__locations-card">
+                      <div class="header__locations-card-img">
+                        <img src="./img/map.svg" alt="">
+                      </div>
+                      <div class="header__locations-card-content">
+                        <h3 class="header__locations-card-title">
+                          Location
+                        </h3>
+                        <div class="header__locations-card-text">
+                          Plan a trip
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="slide slide--morocco">
+                <div class="slide__header">
+                  <div class="slide__tagline" data-swiper-parallax="150%" data-swiper-parallax-opacity="0">
+                    EXPLORE
+                  </div>
+                  <h1 class="slide__title"  data-swiper-parallax="-100%">
+                    <span>Morocco</span>
+                  </h1>
+                </div>
+                <div class="header__locations" >
+                  <div class="header__locations-cards" data-swiper-parallax="-100%">
+                    <a href="#!" class="header__locations-card">
+                      <div class="header__locations-card-img">
+                        <img src="./img/map.svg" alt="">
+                      </div>
+                      <div class="header__locations-card-content">
+                        <h3 class="header__locations-card-title">
+                          Location
+                        </h3>
+                        <div class="header__locations-card-text">
+                          Plan a trip
+                        </div>
+                      </div>
+                    </a>
+                    <a href="#!" class="header__locations-card">
+                      <div class="header__locations-card-img">
+                        <img src="./img/map.svg" alt="">
+                      </div>
+                      <div class="header__locations-card-content">
+                        <h3 class="header__locations-card-title">
+                          Location
+                        </h3>
+                        <div class="header__locations-card-text">
+                          Plan a trip
+                        </div>
+                      </div>
+                    </a>
+                    <a href="#!" class="header__locations-card">
+                      <div class="header__locations-card-img">
+                        <img src="./img/map.svg" alt="">
+                      </div>
+                      <div class="header__locations-card-content">
+                        <h3 class="header__locations-card-title">
+                          Location
+                        </h3>
+                        <div class="header__locations-card-text">
+                          Plan a trip
+                        </div>
+                      </div>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- If we need pagination -->
+          <!-- <div class="swiper-pagination"></div> -->
+            
+            <!-- If we need scrollbar -->
+            <!-- <div class="swiper-scrollbar"></div> -->
+        </div>
+
+            
+      </header>
+      <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+      <script src="./js/script.js"></script>
+  </body>
+</html>

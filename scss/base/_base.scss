@@ -1,0 +1,33 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&display=swap');
+body {
+  font-family: 'Montserrat', sans-serif;
+
+  color: #fff;
+}
+
+.wrapper {
+  min-height: 100%;
+  overflow: auto;
+}
+
+[class*=__container] {
+
+}
+
+.title {
+
+}
+.no-scroll {
+  overflow-y: hidden;
+  background: rgba(0, 0, 0, 0.50);
+}
+/* ============== BUTTON ============== */
+.btn {
+
+}
+
+/* ============== /BUTTON ============== */
+
+/* ============== BURGER ============== */
+
+/* ============== /BURGER ============== */
